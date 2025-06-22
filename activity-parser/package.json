@@ -5,6 +5,9 @@
   "license": "ISC",
   "scripts": {
     "build": "tsc -p .",
-    "test": "npm run build && node dist/test/basic.js && node dist/test/if.js && node dist/test/while.js && node dist/test/arrow.js"
+    "test": "npm run build && node dist/test/basic.js && node dist/test/if.js && node dist/test/while.js && node dist/test/arrow.js && node dist/test/activity_styles.js && node dist/test/keyword_styles_links.js && node dist/test/note_parsing.js && node dist/test/loop_fork_labels.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
   }
 }

@@ -35,3 +35,4 @@ build/
 *.patch
 **/*.class
 activity-parser/dist/
+activity-parser/node_modules/
