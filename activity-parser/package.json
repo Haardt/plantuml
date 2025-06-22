@@ -1,0 +1,10 @@
+{
+  "name": "activity-parser",
+  "version": "1.0.0",
+  "main": "dist/src/index.js",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "npm run build && node dist/test/basic.js && node dist/test/if.js && node dist/test/while.js && node dist/test/arrow.js"
+  }
+}
